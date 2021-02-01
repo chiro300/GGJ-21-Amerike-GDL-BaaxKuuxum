@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 3b8472b5a5c982f4396abb8e3034a5f9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b6382c40c629eef48b13685e184932d7, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 1
+    exportDirectory: Animations/PlayerCharacter/{filename}
+  animationOptions:
+  - tagName: WalkingFront
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  sheetData:
+    frames:
+    - filename: FRENTE__WalkingFront_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 32
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 32
+        h: 32
+      sourceSize:
+        w: 32
+        h: 32
+      duration: 200
+    - filename: FRENTE__WalkingFront_frame2
+      frame:
+        x: 32
+        y: 0
+        w: 32
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 32
+        h: 32
+      sourceSize:
+        w: 32
+        h: 32
+      duration: 200
+    - filename: FRENTE__WalkingFront_frame3
+      frame:
+        x: 64
+        y: 0
+        w: 32
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 32
+        h: 32
+      sourceSize:
+        w: 32
+        h: 32
+      duration: 200
+    - filename: FRENTE__WalkingFront_frame4
+      frame:
+        x: 96
+        y: 0
+        w: 32
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 32
+        h: 32
+      sourceSize:
+        w: 32
+        h: 32
+      duration: 200
+    meta:
+      version: 1.2.25-x64
+      image: FRENTE__sheet.png
+      format: RGBA8888
+      size:
+        w: 128
+        h: 32
+      scale: 1
+      frameTags:
+      - name: WalkingFront
+        from: 0
+        to: 3
+        direction: forward
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-3d7ffe3df3ed2e34f9658195385f4799/asetempexports/FRENTE__data.json
+    aseFileName: Assets/Animations/PlayerCharacter/FRENTE_.aseprite

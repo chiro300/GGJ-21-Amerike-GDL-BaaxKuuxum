@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 5927e8a5a7215f24783377df25a6cee6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b6382c40c629eef48b13685e184932d7, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 1
+    exportDirectory: Animations/EnemyThree/{filename}
+  animationOptions:
+  - tagName: idle
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - tagName: walk
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - tagName: hit
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - tagName: attack
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  sheetData:
+    frames:
+    - filename: shaman_idle_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 100
+    - filename: shaman_idle_frame2
+      frame:
+        x: 16
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 100
+    - filename: shaman_idle_frame3
+      frame:
+        x: 32
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 100
+    - filename: shaman_walk_frame1
+      frame:
+        x: 48
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 200
+    - filename: shaman_walk_frame2
+      frame:
+        x: 64
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 200
+    - filename: shaman_hit_frame1
+      frame:
+        x: 80
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 100
+    - filename: shaman_attack_frame1
+      frame:
+        x: 96
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 100
+    - filename: shaman_attack_frame2
+      frame:
+        x: 112
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 100
+    - filename: shaman_attack_frame3
+      frame:
+        x: 128
+        y: 0
+        w: 16
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 32
+      sourceSize:
+        w: 16
+        h: 32
+      duration: 100
+    meta:
+      version: 1.2.25-x64
+      image: shaman_sheet.png
+      format: RGBA8888
+      size:
+        w: 144
+        h: 32
+      scale: 1
+      frameTags:
+      - name: idle
+        from: 0
+        to: 2
+        direction: forward
+      - name: walk
+        from: 3
+        to: 4
+        direction: forward
+      - name: hit
+        from: 5
+        to: 5
+        direction: forward
+      - name: attack
+        from: 6
+        to: 8
+        direction: forward
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-98128ab4db312c044965838dc49b1853/asetempexports/shaman_data.json
+    aseFileName: Assets/Animations/EnemyThree/shaman.aseprite

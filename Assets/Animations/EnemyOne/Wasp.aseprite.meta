@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: c600c41ae5c636e48a7bb1b7ca29bbd2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b6382c40c629eef48b13685e184932d7, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 1
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 1
+    exportDirectory: Animations/EnemyOne/{filename}
+  animationOptions:
+  - tagName: Flying
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - tagName: FlyingR
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - tagName: Sting
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - tagName: StingR
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - tagName: Damage
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - tagName: DamageR
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  sheetData:
+    frames:
+    - filename: Wasp_Flying_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Flying_frame2
+      frame:
+        x: 16
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Flying_frame3
+      frame:
+        x: 32
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Flying_frame4
+      frame:
+        x: 48
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Flying_frame5
+      frame:
+        x: 64
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_FlyingR_frame1
+      frame:
+        x: 80
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_FlyingR_frame2
+      frame:
+        x: 96
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_FlyingR_frame3
+      frame:
+        x: 112
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_FlyingR_frame4
+      frame:
+        x: 128
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_FlyingR_frame5
+      frame:
+        x: 144
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Sting_frame1
+      frame:
+        x: 160
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Sting_frame2
+      frame:
+        x: 176
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Sting_frame3
+      frame:
+        x: 192
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_StingR_frame1
+      frame:
+        x: 208
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_StingR_frame2
+      frame:
+        x: 224
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_StingR_frame3
+      frame:
+        x: 240
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Damage_frame1
+      frame:
+        x: 256
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_Damage_frame2
+      frame:
+        x: 272
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_DamageR_frame1
+      frame:
+        x: 288
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    - filename: Wasp_DamageR_frame2
+      frame:
+        x: 304
+        y: 0
+        w: 16
+        h: 16
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 16
+      sourceSize:
+        w: 16
+        h: 16
+      duration: 50
+    meta:
+      version: 1.2.25-x64
+      image: Wasp_sheet.png
+      format: RGBA8888
+      size:
+        w: 320
+        h: 16
+      scale: 1
+      frameTags:
+      - name: Flying
+        from: 0
+        to: 4
+        direction: forward
+      - name: FlyingR
+        from: 5
+        to: 9
+        direction: forward
+      - name: Sting
+        from: 10
+        to: 12
+        direction: forward
+      - name: StingR
+        from: 13
+        to: 15
+        direction: forward
+      - name: Damage
+        from: 16
+        to: 17
+        direction: forward
+      - name: DamageR
+        from: 18
+        to: 19
+        direction: forward
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-98128ab4db312c044965838dc49b1853/asetempexports/Wasp_data.json
+    aseFileName: Assets/Animations/EnemyOne/Wasp.aseprite
